@@ -6,12 +6,15 @@ vcpkg_from_github(
     HEAD_REF main
 )
 vcpkg_from_github(
-    OUT_SOURCE_PATH "${SOURCE_PATH}/extern/openvr"
+    OUT_SOURCE_PATH OPENVR_SOURCE_PATH
     REPO ValveSoftware/openvr
     REF v1.0.15
     SHA512 22ad52a659e1d2e4b52832400ac5c6766d1657cb81dfb9868bdc253120c661d41eeea68991eac44af9179d2bf6a346f038f1c444278a98b55b6b738af90ba1b5
     HEAD_REF master
 )
+
+file(COPY "${OPENVR_SOURCE_PATH}/*" DESTINATION "${SOURCE_PATH}/extern/openvr")
+
 vcpkg_cmake_configure(SOURCE_PATH ${SOURCE_PATH})
 vcpkg_cmake_install()
 vcpkg_install_copyright("${SOURCE_PATH}/LICENSE")
