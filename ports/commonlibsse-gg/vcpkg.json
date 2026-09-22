@@ -7,10 +7,10 @@
     "fmt",
     "rapidcsv",
     "spdlog",
-    "xbyak",
     {
       "name": "vcpkg-cmake",
       "host": true
-    }
+    },
+    "xbyak"
   ]
 }
