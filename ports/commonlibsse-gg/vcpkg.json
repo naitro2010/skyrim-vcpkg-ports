@@ -1,12 +1,16 @@
 {
   "name": "commonlibsse-gg",
-  "version-string": "vcpkg_9_22_2026",
+  "version-string": "vcpkg_9_22_2026_2",
   "description": "Fork of MIT Licensed CommonLibSSE-GG for Skyrim and VCPKG",
   "homepage": "https://github.com/naitro2010/CommonLibSSE-GG",
   "dependencies": [
     "fmt",
     "rapidcsv",
     "spdlog",
-    "xbyak"
+    "xbyak",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    }
   ]
 }
