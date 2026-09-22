@@ -1,7 +1,7 @@
 {
   "default": {
     "commonlibsse-gg": {
-      "baseline": "vcpkg_9_22_2026_4",
+      "baseline": "vcpkg_9_22_2026_5",
       "port-version": 0
     }
   }
