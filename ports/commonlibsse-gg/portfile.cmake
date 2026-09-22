@@ -13,11 +13,11 @@ vcpkg_from_github(
     HEAD_REF master
 )
 
-file(COPY "${OPENVR_SOURCE_PATH}/lib" DESTINATION "${SOURCE_PATH}/extern/openvr/lib")
-file(COPY "${OPENVR_SOURCE_PATH}/src" DESTINATION "${SOURCE_PATH}/extern/openvr/src")
-file(COPY "${OPENVR_SOURCE_PATH}/headers" DESTINATION "${SOURCE_PATH}/extern/openvr/headers")
-file(COPY "${OPENVR_SOURCE_PATH}/bin" DESTINATION "${SOURCE_PATH}/extern/openvr/bin")
-file(COPY "${OPENVR_SOURCE_PATH}/CMakeLists.txt" DESTINATION "${SOURCE_PATH}/extern/openvr/CMakeLists.txt")
+file(COPY "${OPENVR_SOURCE_PATH}/lib" DESTINATION "${SOURCE_PATH}/extern/openvr/")
+file(COPY "${OPENVR_SOURCE_PATH}/src" DESTINATION "${SOURCE_PATH}/extern/openvr/")
+file(COPY "${OPENVR_SOURCE_PATH}/headers" DESTINATION "${SOURCE_PATH}/extern/openvr/")
+file(COPY "${OPENVR_SOURCE_PATH}/bin" DESTINATION "${SOURCE_PATH}/extern/openvr/")
+file(COPY "${OPENVR_SOURCE_PATH}/CMakeLists.txt" DESTINATION "${SOURCE_PATH}/extern/openvr/")
 
 vcpkg_cmake_configure(SOURCE_PATH ${SOURCE_PATH})
 vcpkg_cmake_install()
