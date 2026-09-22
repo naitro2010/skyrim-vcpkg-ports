@@ -1,6 +1,11 @@
 {
   "versions": [
     {
+      "git-tree": "22d642275f10ebf7df169ae8ffae99ec3cc7458c",
+      "version-string": "vcpkg_9_22_2026_2",
+      "port-version": 0
+    },
+    {
       "git-tree": "9502b94225f235fbfe9ea4c662c04f6a8350e193",
       "version-string": "vcpkg_9_22_2026",
       "port-version": 0
