@@ -21,4 +21,3 @@ file(COPY "${OPENVR_SOURCE_PATH}/CMakeLists.txt" DESTINATION "${SOURCE_PATH}/ext
 
 vcpkg_cmake_configure(SOURCE_PATH ${SOURCE_PATH})
 vcpkg_cmake_install()
-vcpkg_install_copyright("${SOURCE_PATH}/LICENSE")
