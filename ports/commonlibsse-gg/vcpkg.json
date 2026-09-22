@@ -1,6 +1,6 @@
 {
   "name": "commonlibsse-gg",
-  "version-string": "vcpkg_9_22_2026_7",
+  "version-string": "vcpkg_9_22_2026_8",
   "description": "Fork of MIT Licensed CommonLibSSE-GG for Skyrim and VCPKG",
   "homepage": "https://github.com/naitro2010/CommonLibSSE-GG",
   "dependencies": [
