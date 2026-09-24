@@ -3,6 +3,10 @@
     "commonlibsse-gg": {
       "baseline": "vcpkg_9_22_2026_12",
       "port-version": 0
+    },
+    "commonlibsse-min": {
+      "baseline": "v4.39.5",
+      "port-version": 0
     }
   }
 }
